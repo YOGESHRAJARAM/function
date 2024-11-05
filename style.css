@@ -1,0 +1,281 @@
+
+
+
+body{
+    background-color: rgb(4, 4, 4);
+   
+}
+.web_body{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+   
+    height: 800px;
+    
+} 
+.page1{
+    width: 100%;
+    background-color: black;
+   
+}
+.page1_layout1_img1{
+    width: 100%;
+   
+    
+}
+
+   
+.image_over{
+
+    position: relative;
+}
+.page1_layout1_img2{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 3px;
+    transition-duration: 0.9s;
+}
+.page1_layout2_img1{
+    position: absolute;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.content_on_page1{
+    margin-top: 320px;
+   
+    position: absolute;
+   display: flex;
+   color: rgb(31, 34, 37);
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.counter{
+    display: flex;
+    column-gap: 20px;
+}
+.fon{
+    color:rgba(92, 52, 15, 1);
+    font-size: 16px;
+    font-weight: 400;
+    font-family:'Galada', cursive;
+    line-height: 26.03px;
+    margin-top: 0px;
+
+}
+.page1_layer1_copulename{
+    margin-top: 20px;
+    margin-left: 8px;
+}
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    width: 210px;
+    height:52px ;
+    gap: 1px;
+    font-family: 'Galada', cursive;
+    font-weight:400;
+    color:rgba(92, 52, 15, 1) ;
+    
+   
+}
+
+.box{
+    width:70px;
+    height:50px;
+    text-align: center;
+   
+}
+.box h2{
+    font-size: 32px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    line-height: 52px ;
+}
+.box small{
+    font-size:10px;
+}
+.happywedding{
+    margin-top: 0px;
+    font-family: 'Alex Brush',cursive;
+    font-size: 45px;
+    line-height: 56px;
+    font-weight: 400;
+    color: rgba(63, 2, 2, 1);
+    margin-bottom: 0px;
+    width: 100%;
+    border-right: 1px solid;
+    border-color: rgba(81, 77, 77, 0.64);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 4s steps(18),
+               cursor .4s step-end infinite alternate;
+}
+@keyframes cursor{
+    50%{border-color: transparent;}
+}
+@keyframes typing {
+    from{width:0}
+}
+.wedding_element{
+    display: inline-block;
+}
+
+.line{
+  margin-top: 5px;
+  width: 260px;
+}
+.colen{
+    margin-top: 10px;
+}
+.page1_layer1_copulename{
+    margin-top: 50px;
+}
+.page2{
+   width: 100%;
+    background-color: rgb(126, 51, 51);
+    height: 840px;
+    
+}
+.page2_{
+   width: 100%;
+}
+
+.page2_layout2{
+     
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      
+}
+.rectangle_ev{
+    position: absolute;
+    top:834px ;
+    
+    font-family: 'Amita', cursive;
+    color: white;
+    width: 700;
+    font-size: 22px;
+    line-height: 42.72px;
+    
+
+}
+.rectangle_div{
+    position: absolute;
+    top: 828px;
+    
+   
+}
+.leaf1{
+    width: 50.35px;
+    height: 45.47px;
+    position: absolute;
+    top: 812px;
+    left: 70.03px;
+
+}
+
+.leaf2{
+    margin-left: 200px;
+    height: 50px;
+}
+.map_image{
+    position: absolute;
+    width: 309px;
+    height:227px;
+    top:918px;
+    
+}
+.event_detail{
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    padding: 0px;
+    height: auto;
+    top :1163px;
+    
+   
+}
+.last_page{
+    width: 100%;
+    height: fit-content;
+    border-radius: 15px;
+
+}
+.downloade_button{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    top: 1560px;
+    margin-left: 10px;
+}
+.Downloade_invite{
+
+    
+    color: white;
+    font-family:'Amita', cursive;
+    background-color: rgb(97, 116, 82);
+    border: none;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 35px;
+    padding-left: 35px;
+    
+}
+.Downloade_invite:active{
+    color: black;
+    background-color: rgb(227, 241, 227);
+    border: solid;
+}
+@media only screen and (min-width: 600px) {
+    .content_on_page1{
+        margin-top: 500px;
+        margin-left: 20px;
+       position: absolute;
+       display: flex;
+       color: rgb(31, 34, 37);
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+    }
+    body{
+        display: none;
+        background-color: aquamarine;
+    }
+   
+  }
+  @media only screen and (min-width: 440px){
+    .content_on_page1{
+        margin-top:420px;
+       
+        position: absolute;
+       display: flex;
+       color: rgb(31, 34, 37);
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+    }
+    .rectangle_div{
+       margin-top: 30px;
+    }
+    .rectangle_ev{
+        margin-top: 30px;
+    }
+    .leaf1{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    
+  }
